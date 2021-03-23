@@ -113,10 +113,14 @@ body{
  letter-spacing: 0.02em;}
 
 .header{
- border-bottom: 1px solid #ECECEC;
- height: 80px;
- display: flex;
- align-items: center; }
+  border-bottom: 1px solid #ECECEC;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 header.section{padding: 0;}
 
@@ -159,18 +163,23 @@ header.section{padding: 0;}
 /* main pg index */
 /*     hero */
 .hero{
- padding-top: 200px;
- padding-bottom: 200px;
- background-color: var(--third-bg-color);}
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/hero.jpg);
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .main-title{
- color: var(--primery-bg-color);
- font-weight: 900;
- font-size: 44px;
- line-height: 1.36;
- letter-spacing: 0.06em;
- text-transform: uppercase;
- margin-bottom: 30px;}
+  color: var(--primery-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
 
 .hero-container{
  width: 696px;
