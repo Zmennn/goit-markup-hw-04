@@ -210,12 +210,15 @@ header.section{padding: 0;}
 
 .our-features-item::before{
   content: "";
-  display: flex;
+  display: block;
   height: 120px;
   width: 100%;
   background: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
+  /* background-position: 50% 50%;
+  background-image: url();
+  background-repeat: no-repeat; */
 }
 
 .our-features-subtitle{color: var(--primari-title-color);
