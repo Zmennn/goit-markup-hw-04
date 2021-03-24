@@ -213,13 +213,19 @@ header.section{padding: 0;}
   display: block;
   height: 120px;
   width: 100%;
-  background: #F5F4FA;
+  background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
-  /* background-position: 50% 50%;
-  background-image: url();
-  background-repeat: no-repeat; */
+  background-position: centet;
+  background-image: url(../images/features/Group1.png);
+  background-repeat: no-repeat; 
+  background-size: none;
 }
+.our-features-item2::before{background-image: url(../images/features/Group2.png);}
+
+.our-features-item3::before{background-image: url(../images/features/Group3.png);}
+
+.our-features-item4::before{background-image: url(../images/features/Group4.png);}
 
 .our-features-subtitle{color: var(--primari-title-color);
   font-size: 14px;
