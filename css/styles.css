@@ -216,16 +216,15 @@ header.section{padding: 0;}
   background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
-  background-position: centet;
-  background-image: url(../images/features/Group1.png);
+  background-image: url(../images/features/group1.svg);
   background-repeat: no-repeat; 
-  background-size: none;
+  background-size: cover;
 }
-.our-features-item2::before{background-image: url(../images/features/Group2.png);}
+.our-features-item2::before{background-image: url(../images/features/group2.svg);}
 
-.our-features-item3::before{background-image: url(../images/features/Group3.png);}
+.our-features-item3::before{background-image: url(../images/features/group3.svg);}
 
-.our-features-item4::before{background-image: url(../images/features/Group4.png);}
+.our-features-item4::before{background-image: url(../images/features/group4.svg);}
 
 .our-features-subtitle{color: var(--primari-title-color);
   font-size: 14px;
@@ -294,7 +293,7 @@ background-color:var(--primery-bg-color) ;
 }
 
 .regular-customers .grid-items{
-
+--grid-item:6;
 }
 
 /* main pg portfolio */
