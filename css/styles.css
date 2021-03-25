@@ -10,7 +10,7 @@
     --grid-item:3
 }
 
- *{outline: crimson solid 1px;}
+ /* *{outline: crimson solid 1px;} */
  
 /* reset styles */
 a{text-decoration: none;
@@ -238,15 +238,10 @@ header.section{padding: 0;}
   height: 120px;
   background-color: var(--second-bg-color);
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
-
-.icon-antenna-1{
-  height: 70px;
-  width: 65px;
-}
-
 
 .our-features-subtitle{color: var(--primari-title-color);
   font-size: 14px;
@@ -310,21 +305,28 @@ header.section{padding: 0;}
 }
  .social-list li:not(:last-child){margin-right: 10px;
 }
-.social-icon{
+
+.social-link{
   width: 44px;
   height: 44px;
-  fill:#afb1b8 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
 }
 
- .social-icon:hover,.social-icon:focus{
-   fill: #ffffff;
-   background-color:var(--accent-color);
+.social-icon{
+  width: 20px;
+  height: 20px;
+  fill:#afb1b8 ;
 }
 
- .team-text-container a{
-   font-size: 0;
+.social-link:hover .social-icon,.social-linc:focus .social-icon{
+  fill: #ffffff;
 }
+.social-link:hover,.social-linc:focus{background-color:var(--accent-color);}
+
+
 
  /* regular customers */
 .regular-customers h2{
