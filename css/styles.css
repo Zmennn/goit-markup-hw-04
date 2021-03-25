@@ -10,7 +10,7 @@
     --grid-item:3
 }
 
-/* *{outline: crimson solid 1px;} */
+ *{outline: crimson solid 1px;}
  
 /* reset styles */
 a{text-decoration: none;
@@ -211,7 +211,10 @@ header.section{padding: 0;}
   --grid-item:4
 }
 
-.our-features-item::before{
+/* работающее решение картинок через псевдоэлементы */
+/* .our-features-item::before{
+
+
   content: "";
   display: block;
   height: 120px;
@@ -227,7 +230,23 @@ header.section{padding: 0;}
 
 .our-features-item3::before{background-image: url(../images/features/group3.svg);}
 
-.our-features-item4::before{background-image: url(../images/features/group4.svg);}
+.our-features-item4::before{background-image: url(../images/features/group4.svg);} */
+
+/* картинки через спрайт */
+.our-features-logo-container{
+  width: 270px;
+  height: 120px;
+  background-color: var(--second-bg-color);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.icon-antenna-1{
+  height: 70px;
+  width: 65px;
+}
+
 
 .our-features-subtitle{color: var(--primari-title-color);
   font-size: 14px;
