@@ -286,19 +286,19 @@ header.section{padding: 0;}
 .team{background-color: var(--second-bg-color);} 
 
 .team-title{
- margin-bottom: 50px;
- color: var(--primari-title-color);
- font-size: 36px;
- line-height: 1.16;
- text-align: center;
- letter-spacing: 0.03em;}
+  margin-bottom: 50px;
+  color: var(--primari-title-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;}
 
 .team-subtitle{
- color: var(--primari-title-color);
- font-weight: 500;
- font-size: 16px;
- line-height: 1.18;
- letter-spacing: 0.03em;}
+  color: var(--primari-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;}
 
 .team-text{
   margin-top: 10px;
@@ -391,21 +391,22 @@ height: 90px;
 /* main pg portfolio */
 /*     buttons */
 .portfolio-button{
- background-color: var(--second-bg-color);
- color: var(--primari-title-color);
- cursor: pointer;font-weight: 500;
- font-size: 16px;
- line-height: 1.62;
- text-align: center;
- letter-spacing: 0.03em;
- padding: 6px 22px;
- border: 0px;
- border-radius: 4px;}
+  background-color: var(--second-bg-color);
+  color: var(--primari-title-color);
+  cursor: pointer;font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border: 0px;
+  border-radius: 4px;}
 
 .portfolio-button:focus,.portfolio-button:hover{
- background-color: var(--accent-color);
- color: var(--primery-bg-color);
- box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+  background-color: var(--accent-color);
+  color: var(--primery-bg-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px 
+  rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
 
 .portfolio-list{
  display: flex;
@@ -421,7 +422,7 @@ height: 90px;
  font-size: 18px;
  line-height: 2;
  letter-spacing: 0.06em;
-padding-bottom: 4px;}
+ padding-bottom: 4px;}
 
 .gallery p{
  font-size: 16px;
@@ -433,5 +434,10 @@ padding-bottom: 4px;}
  border: 1px solid #EEEEEE;
  padding:20px 24px;}
 
- .gallery-link:hover,.gallery-link:focus{
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
+.gallery-link:hover,.gallery-link:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px 
+  rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  display: block;
+}
+
+  
