@@ -11,7 +11,7 @@
     --grid-item:3;
 }
 
- /* *{outline: crimson solid 1px;} */
+ *{outline: crimson solid 1px;} 
  
 /* reset styles */
 a{text-decoration: none;
@@ -113,6 +113,11 @@ align-items: center;}
   fill:var(--accent-color) ;
   color: var(--accent-color);
 }
+
+.nav-link,.contacts-head{  
+display: block;
+}
+
 
 .nav-link,.contacts-head{
  font-weight: 500;
@@ -312,6 +317,8 @@ header.section{padding: 0;}
 .team-text-container{
   padding-bottom: 23px;
   padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color:var(--primery-bg-color) ;
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
