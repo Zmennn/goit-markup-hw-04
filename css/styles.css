@@ -11,8 +11,8 @@
     --grid-item:3;
 }
 
- *{outline: crimson solid 1px;} 
- 
+ /* *{outline: crimson solid 1px;} 
+  */
 /* reset styles */
 a{text-decoration: none;
   color: inherit;
